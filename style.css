@@ -1,0 +1,126 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    color:#23e3cb;
+  }
+  
+  body {
+    background-color:rgb(51, 42, 42);
+    
+  }
+
+  #Harder h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  .image-container {
+   overflow: hidden;
+    
+    
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Banner Section */
+  
+  p {
+    min-width: 200px;
+    min-height: 200px;
+  }
+  
+  #banner {
+    height: 56rem;
+    background-image: IMG_7356.jpg;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  #banner h1 {
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+  
+  /* Blog Post */
+  
+  #blog {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #blog .post {
+    width: 52%;
+    margin-top: 12.5%;
+    margin-bottom: 7.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #23e3cb;
+  }
+  
+  .post h2 {
+    font-size: 1.875rem;
+    
+  }
+  
+  .post h3 {
+    font-size: 1.125rem;
+    color: #23e3cb;
+  }
+  
+  .post .opening-line {
+    margin-top: 4.1875rem;
+    margin-bottom: 1.5rem;
+    color: #23e3cb;
+    font-weight: bold;
+  }
+  
+  .post .image-container {
+    width: 100%;
+  }
+  
+  /* Blog Images */
+  
+  .images {
+    margin-bottom: 20%;
+  }
+  
+  .images .image-container {
+    display: inline-block;
+    width: 40%;
+  }
+  
+  /* Footer */
+  
+  footer {
+    padding: 6rem 0;
+    border-top: 1px solid #27c05a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    color: turquoise;
+    text-align: center;
+  }
+  footer a {
+    text-decoration: none;
+    color: turquoise;
+  }
